@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core";
-import FavoriteIcon from "@material-ui/icons/Favorite";
+// import FavoriteIcon from "@material-ui/icons/Favorite";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -37,7 +37,7 @@ export function Footer(props) {
       </div>
 
       <div className={classes.content}>
-        Made
+        Made 
         by{" "}
         <a href="https://www.linkedin.com/in/animeshjaiswal786/" className={classes.link}>
           Animesh Jaiswal
